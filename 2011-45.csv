@@ -1,0 +1,389 @@
+
+"Browser Version","Market Share % W45 2011"
+"IE 8.0",24.25
+"Chrome 15.0",22.53
+"IE 9.0",10.01
+"Firefox 7.0",9.85
+"Firefox 3.6",5.72
+"Firefox 8.0",5.48
+"IE 7.0",4.3
+"Safari 5.1",2.72
+"IE 6.0",2.2
+"Safari 5.0",1.6
+"Opera 11.5",1.49
+"Firefox 6.0",1.31
+"Safari iPad",1.23
+"Firefox 4.0",0.94
+"Firefox 5.0",0.85
+"Chrome 14.0",0.81
+"Firefox 3.0",0.48
+"Firefox 3.5",0.48
+"Chrome 13.0",0.33
+"Chrome 12.0",0.32
+"Chrome 16.0",0.31
+"Safari 4.0",0.21
+"Chrome 11.0",0.2
+"Chrome 10.0",0.19
+"Safari 4.1",0.16
+"Chrome 6.0",0.15
+"Sony PS3 0",0.14
+"Chrome 17.0",0.12
+"Firefox 2.0",0.11
+"Chrome 8.0",0.1
+"Chrome 5.0",0.1
+"Android 0",0.09
+"Firefox 9.0",0.09
+"Chrome 9.0",0.08
+"Chrome 4.0",0.08
+"Chrome 7.0",0.07
+"Opera 11.1",0.07
+"Maxthon 3.0",0.07
+"Opera 11.0",0.05
+"Opera 10.6",0.04
+"Chromium 14.0",0.04
+"Chrome 3.0",0.03
+"Maxthon 2.0",0.03
+"RockMelt 0.9",0.03
+"Opera 9.6",0.03
+"Android 3.1",0.02
+"Chrome 2.0",0.02
+"Mozilla 1.9",0.02
+"Opera 10.1",0.02
+"Maxthon 1.0",0.02
+"SeaMonkey 2.4",0.02
+"Opera 10.0",0.02
+"Opera 12.0",0.02
+"Opera 10.5",0.02
+"Opera 0",0.02
+"Safari 3.1",0.01
+"Safari 3.0",0.01
+"webOS Browser 0",0.01
+"Chromium 15.0",0.01
+"AppleWebKit 0",0.01
+"Safari 3.2",0.01
+"Safari 0",0.01
+"Firefox 1.5",0.01
+"Android 3.2",0.01
+"Camino 2.0",0.01
+"Firefox 1.0",0.01
+"Opera 9.5",0.01
+"Opera 9.2",0.01
+"Comodo Dragon 15.0",0.01
+"IE 10.0",0.01
+"Flock 2.0",0.01
+"AOL 7.0",0.01
+"Chrome 1.0",0.01
+"Windows Media Player 0",0.01
+"BlackBerry 0",0.01
+"Chromium 12.0",0.01
+"Android 2.3",0.01
+"Iron 14.0",0.01
+"SeaMonkey 2.0",0.01
+"Opera 11.6",0
+"360 0",0
+"Chrome 0.2",0
+"Lunascape 6.5",0
+"Android 2.2",0
+"Iron 13.0",0
+"Flock 3.5",0
+"Iron 12.0",0
+"Safari 1.3",0
+"Mozilla 1.8",0
+"IE 5.5",0
+"Safari 2.0",0
+"Firefox 3.1",0
+"Iron 6.0",0
+"AOL 6.0",0
+"Iron 15.0",0
+"Chromium 17.0",0
+"Chrome 0.3",0
+"SeaMonkey 1.1",0
+"Iron 10.0",0
+"Mozilla 1.7",0
+"Iron 11.0",0
+"K-Meleon 1.0",0
+"Android 3.0",0
+"Chrome 0.4",0
+"Opera 10.7",0
+"Konqueror 3.5",0
+"Iceweasel 2.0",0
+"Iron 8.0",0
+"Comodo Dragon 12.2",0
+"Iron 9.0",0
+"Chromium 11.0",0
+"Iron 7.0",0
+"Comodo Dragon 14.2",0
+"Comodo Dragon 14.0",0
+"Comodo Dragon 10.0",0
+"Netscape 7.2",0
+"Comodo Dragon 12.1",0
+"WebTV/MSNTV 2.6",0
+"Chromium 10.0",0
+"SeaMonkey 2.3",0
+"Iron 5.0",0
+"Opera 9.1",0
+"SeaMonkey 2.2",0
+"Comodo Dragon 14.1",0
+"Comodo Dragon 13.4",0
+"K-Meleon 1.5",0
+"Opera 9.0",0
+"Minefield 4.0",0
+"Chromium 8.0",0
+"IE 5.01",0
+"Camino 1.6",0
+"Comodo Dragon 11.4",0
+"SeaMonkey 2.5",0
+"Comodo Dragon 8.0",0
+"Comodo Dragon 13.0",0
+"Chromium 13.0",0
+"Safari 1.0",0
+"Flock 1.0",0
+"Android 2.1",0
+"Opera 8.5",0
+"Iron 4.0",0
+"Chromium 9.0",0
+"Minefield 3.0",0
+"Camino 2.1",0
+"Minefield 3.7",0
+"Anonymouse 0",0
+"Comodo Dragon 13.2",0
+"IE 5.0",0
+"Iron 3.0",0
+"SeaMonkey 2.1",0
+"Opera 8.0",0
+"Firefox 0",0
+"Chromium 6.0",0
+"Lunascape 6.4",0
+"Netscape 8.0",0
+"Comodo Dragon 6.0",0
+"Safari 1.2",0
+"Chromium 7.0",0
+"Comodo Dragon 9.0",0
+"MS OPD 0",0
+"Camino 1.0",0
+"Netscape 7.0",0
+"IE 0",0
+"Camino 1.5",0
+"FrontPage 0",0
+"Opera 10.2",0
+"Thunderbird 3.0",0
+"Windows Media Player 11.0",0
+"Mozilla 1.0",0
+"Opera 7.5",0
+"Lunascape 6.3",0
+"Netscape 4.7",0
+"Netscape 7.1",0
+"Netscape 4.03",0
+"UC Browser 7.9",0
+"Netscape 8.1",0
+"Sleipnir 2.0",0
+"Comodo Dragon 4.1",0
+"Squid 0",0
+"SeaMonkey 1.0",0
+"Webaroo 0",0
+"IE 4.01",0
+"UC Browser 7.8",0
+"Safari 1.1",0
+"Iron 2.0",0
+"Android 1.6",0
+"Links 2.2",0
+"Lunascape 4.0",0
+"Opera 7.0",0
+"Netscape 4.79",0
+"Konqueror 4.2",0
+"Lunascape 6.1",0
+"Galeon 2.0",0
+"Chromium 16.0",0
+"Netscape 6.2",0
+"Mozilla 1.6",0
+"SaferSurf 0",0
+"Chrome 0.0",0
+"Flock 3.0",0
+"Safari 5.2",0
+"Chromium 5.0",0
+"Amiga 0",0
+"Konqueror 3.2",0
+"Konqueror 4.1",0
+"Opera 7.2",0
+"Iron 1.0",0
+"NetSurf 0",0
+"Netscape 4.8",0
+"IE 5.1",0
+"Comodo Dragon 1.0",0
+"AOL 5.5",0
+"Windows Media Player 9.0",0
+"Firefox 1.4",0
+"Lunascape 5.1",0
+"Camino 0.8",0
+"Comodo Dragon 4.0",0
+"SeaMonkey 2.7",0
+"IE 5.2",0
+"Galeon 1.0",0
+"Chrome 3.1",0
+"Lunascape 6.0",0
+"Konqueror 3.4",0
+"Opera 10.3",0
+"Konqueror 3.1",0
+"Lunascape 6.2",0
+"Microsoft URL Control 0",0
+"SeaMonkey 2.6",0
+"Mozilla 1.2",0
+"WebTV/MSNTV 1.0",0
+"Mozilla 1.4",0
+"Opera 7.1",0
+"UC Browser 1.0",0
+"Mozilla 1.3",0
+"Iron 0",0
+"Lunascape 5.0",0
+"Lynx 2.8",0
+"Windows-Media-Player 10.0",0
+"SeaMonkey 2.8",0
+"Minefield 3.1",0
+"Mozilla 1.5",0
+"Opera 6.0",0
+"Minefield 3.6",0
+"Proxomitron 0",0
+"RockMelt 0.8",0
+"Opera 7.6",0
+"Iron 0.2",0
+"Apple-PubSub 0",0
+"Netscape 4.5",0
+"Konqueror 3.3",0
+"iCab 3.0",0
+"Lunascape 4.8",0
+"Lunascape 3.0",0
+"Dillo 0.8",0
+"ibisBrowser 0",0
+"Chrome 8.1",0
+"Firebird 0",0
+"Opera 8.1",0
+"Anonymous 0",0
+"Netscape 4.61",0
+"Lunascape 4.7",0
+"Links 2.1",0
+"Dillo 2.0",0
+"Lunascape 1.4",0
+"Shiira 1.2",0
+"Lunascape 0",0
+"Netscape 4.0",0
+"Android 0.5",0
+"Netscape 4.6",0
+"Twitturly 0",0
+"Camino 3.0",0
+"Lunascape 1.1",0
+"Camino 1.1",0
+"Microsoft-WebDAV 0",0
+"Android 1.5",0
+"RockMelt 0.15",0
+"Lunascape 3.2",0
+"Chimera 0",0
+"w3m 0.5",0
+"UC Browser 7.7",0
+"Fake IE 0",0
+"Lunascape 1.3",0
+"Netscape 6.1",0
+"Lunascape 1.2",0
+"Microsoft Office Existence Discovery 0",0
+"Lunascape 4.6",0
+"Minefield 3.2",0
+"SmallProxy 0",0
+"Lunascape 2.0",0
+"Konqueror 3.0",0
+"Lunascape 4.1",0
+"Lunascape 3.6",0
+"Camino 0.9",0
+"Lunascape 1.05",0
+"Netscape 4.51",0
+"iCab 2.9",0
+"Lunascape 3.5",0
+"SeaMonkey 0",0
+"Iron 0.3",0
+"UC Browser 7.6",0
+"Chrome 19.0",0
+"Chrome 2.1",0
+"Chrome 42.0",0
+"Android 4.0",0
+"MS IPPPD 0",0
+"Lunascape 4.9",0
+"IE 4.5",0
+"Comodo Dragon 22.2",0
+"Lunascape 3.1",0
+"Windows Media Player 8.0",0
+"Mozilla 1.1",0
+"Windows Media Player 10.0",0
+"Windows Media Player 7.0",0
+"Camino 4.0",0
+"BrowseX 0",0
+"Emacs/W3 0",0
+"Lunascape 4.3",0
+"SeaMonkey 1.5",0
+"Chrome 77.8",0
+"Avant Browser 0",0
+"Camino 0.7",0
+"Anonymizied 0",0
+"Chrome 13.3",0
+"Opera 5.0",0
+"Iron 0.4",0
+"Firefox Mobile 1.0",0
+"VLC 0",0
+"Microsoft Visio 0",0
+"Lunascape 4.2",0
+"ELinks 0.11",0
+"Chrome 0.5",0
+"Lunascape 0.96",0
+"Netscape 6.0",0
+"Iceweasel 0",0
+"Opera 9.4",0
+"Shiira 0.9",0
+"Netscape 3.0",0
+"Android 1.0",0
+"ELinks 0.12",0
+"Opera 9.3",0
+"Privoxy 0",0
+"NetPositive 2.2",0
+"ELinks 0.9",0
+"MFHttpScan 0",0
+"w3m 0",0
+"Chrome 99.0",0
+"Android 1.1",0
+"RockMelt 0.10",0
+"HP Secure Web Browser 1.4",0
+"UC Browser 7.4",0
+"Chrome 5.7",0
+"Links 0",0
+"WinAmp 0",0
+"Chrome 1.6",0
+"BITS 0",0
+"UC Browser 8.0",0
+"Microsoft Excel 12.0",0
+"Chrome 18.0",0
+"Camino 1.2",0
+"Lynx 0",0
+"Lunascape 2.1",0
+"IBrowse 2.2",0
+"Chrome 5.2",0
+"Chrome 15.8",0
+"Dillo 0.6",0
+"Lunascape 1.03",0
+"Comodo Dragon 15.1",0
+"iTunes 0",0
+"Zune 2.0",0
+"Windows Media Player 4.0",0
+"Lunascape 0.98",0
+"Chrome 18.6",0
+"Android 4.1",0
+"Chrome 20.0",0
+"Microsoft 0",0
+"SlimBrowser 0",0
+"Netbox 0",0
+"Chrome 15.1",0
+"UC Browser 7.5",0
+"Lunascape 1.04",0
+"Android 2.0",0
+"Chromium 14.8",0
+"Playstation 0",0
+"Links 1.0",0
+"Safari 8.0",0
+"Camino 0",0
+"Lunascape 4.5",0
+"Wipeout Pure 0",0
