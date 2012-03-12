@@ -3,6 +3,7 @@ set terminal png size 2000,2000
 set xdata time
 set timefmt "%Y-%m-%d"
 set yrange [0:100]
+set xrange ["2009-01-01":]
 <?
 
 array_shift($argv);
@@ -17,7 +18,7 @@ foreach ($argv as $f) {
 }
 unset($bs["\n"]);
 foreach ($t as $br => $v)
-	if ($v < 20)
+	if ($v < 10)
 		unset($bs[$br]);
 
 $bs = array_keys($bs);
