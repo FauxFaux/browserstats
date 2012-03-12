@@ -17,7 +17,7 @@ foreach ($argv as $f) {
 }
 unset($bs["\n"]);
 foreach ($t as $br => $v)
-	if ($v < 200)
+	if ($v < 20)
 		unset($bs[$br]);
 
 $bs = array_keys($bs);
@@ -27,7 +27,7 @@ foreach ($fs as $f) {
 	@$d.=date("Y-m-d", strtotime(preg_replace("/-/","W",preg_replace("/.csv$/","",$f))));
 	$r=0;
 	foreach ($bs as $b) {
-		$d.=" " . (isset($o[$f][$b]) ? ($r+=$o[$f][$b]) : $r);
+		$d.=" " . ($r += (isset($o[$f][$b]) ? $o[$f][$b] : 0));
 	}
 	$d.="\n";
 }
@@ -37,7 +37,7 @@ file_put_contents("dat", $d);
 $s = "plot";
 $i=2;
 foreach ($bs as $b) {
-	$s .= " \"dat\" using 1:" . ($i++) . " t $b w filledcurves,";
+	$s .= " \"dat\" using 1:" . ($i++) . " t $b w lines,";
 }
 
 echo preg_replace("/,$/","",$s);
