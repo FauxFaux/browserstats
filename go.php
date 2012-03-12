@@ -1,7 +1,8 @@
 set terminal png size 2000,2000
-set key off
+#set key off
 set xdata time
 set timefmt "%Y-%m-%d"
+set yrange [0:100]
 <?
 
 array_shift($argv);
@@ -11,12 +12,17 @@ foreach ($argv as $f) {
 		$x = preg_split("/,/", $l);
 		$bs[$x[0]] = true;
 		@$o[$f][$x[0]] = (float)$x[1];
+		@$t[$x[0]] += (float)$x[1];
 	}
 }
-
 unset($bs["\n"]);
+foreach ($t as $br => $v)
+	if ($v < 200)
+		unset($bs[$br]);
+
 $bs = array_keys($bs);
-sort($bs);
+natsort($bs);
+
 foreach ($fs as $f) {
 	@$d.=date("Y-m-d", strtotime(preg_replace("/-/","W",preg_replace("/.csv$/","",$f))));
 	$r=0;
