@@ -1,9 +1,15 @@
 set terminal png size 2000,2000
 #set key off
-set xdata time
-set timefmt "%Y-%m-%d"
-set yrange [0:100]
-set xrange ["2009-01-01":]
+#set xdata time
+#set timefmt "%Y-%m-%d"
+#set yrange [0:1000]
+set xtics nomirror rotate by -90
+#set xrange ["2009-01-01":]
+set style data histograms
+set style histogram rowstacked
+set style fill solid border -1
+set key invert reverse Left outside
+set boxwidth 1.00
 <?
 
 array_shift($argv);
@@ -24,22 +30,19 @@ foreach ($t as $br => $v)
 $bs = array_keys($bs);
 natsort($bs);
 
+$d = 'when ' . implode(' ', $bs);
 foreach ($fs as $f) {
 	@$d.=date("Y-m-d", strtotime(preg_replace("/-/","W",preg_replace("/.csv$/","",$f))));
 	$r=0;
 	foreach ($bs as $b) {
-		$d.=" " . ($r += (isset($o[$f][$b]) ? $o[$f][$b] : 0));
+		$d.=" " . (/*$r +=*/ (isset($o[$f][$b]) ? $o[$f][$b] : 0));
 	}
 	$d.="\n";
 }
 
 file_put_contents("dat", $d);
 
-$s = "plot";
-$i=2;
-foreach ($bs as $b) {
-	$s .= " \"dat\" using 1:" . ($i++) . " t $b w lines,";
-}
+$s = "plot \"dat\" using 2:xtic(1), for [i=2:" . count($bs) . "] '' using i title column(i) lt 0";
 
 echo preg_replace("/,$/","",$s);
 
