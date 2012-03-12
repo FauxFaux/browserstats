@@ -1,5 +1,3 @@
-#!/bin/php
-?>
 set terminal png size 2000,2000
 set key off
 set xdata time
