@@ -2,14 +2,13 @@ set terminal png size 2000,2000
 #set key off
 #set xdata time
 #set timefmt "%Y-%m-%d"
-#set yrange [0:1000]
 set xtics nomirror rotate by -90
-#set xrange ["2009-01-01":]
 set style data histograms
 set style histogram rowstacked
-set style fill solid border -1
+set style fill solid border 0
 set key invert reverse Left outside
-set boxwidth 1.00
+set boxwidth 1
+set noytics
 <?
 
 array_shift($argv);
@@ -30,7 +29,7 @@ foreach ($t as $br => $v)
 $bs = array_keys($bs);
 natsort($bs);
 
-$d = 'when ' . implode(' ', $bs);
+#$d = 'when ' . implode(' ', $bs);
 foreach ($fs as $f) {
 	@$d.=date("Y-m-d", strtotime(preg_replace("/-/","W",preg_replace("/.csv$/","",$f))));
 	$r=0;
@@ -42,7 +41,12 @@ foreach ($fs as $f) {
 
 file_put_contents("dat", $d);
 
-$s = "plot \"dat\" using 2:xtic(1), for [i=2:" . count($bs) . "] '' using i title column(i) lt 0";
+$s = 'plot ';
+$i = 1;
+foreach ($bs as $b) {
+	++$i;
+	$s .= "\"dat\" using ($$i):xtic(1) title $b,";
+}
 
 echo preg_replace("/,$/","",$s);
 
