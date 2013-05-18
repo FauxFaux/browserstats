@@ -1,4 +1,4 @@
-set terminal png size 2500,1300
+set terminal png size 3500,1300
 #set key off
 #set xdata time
 #set timefmt "%Y-%m-%d"
